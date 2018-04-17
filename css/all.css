@@ -5,12 +5,16 @@
     height: 65vh;
 }
 .navbar.navbar-transparent{
-    color: #00aa88 ;
-    background-color: black !important;
+    color:rgb(152, 188, 115) ;
+    /*background-color: black !important;*/
 }
 .navbar{
-    background-color: black !important;
-    color: #00aa88 ;
+    /*background-color: black !important;*/
+    color:rgb(152, 188, 115) ;
+}
+.navbar-toggler{
+    color:rgb(152, 188, 115) ;
+
 }
 .navbar img{
     margin-top: -18px;
@@ -29,14 +33,14 @@
 .info{
     padding: 6px;
 }
-.dropdown-menu{
-    background-color: black;
-}
-.dropdown-menu .dropdown-item, .dropdown-menu li > a{
-    color: whitesmoke;
-}
+/*.dropdown-menu{*/
+    /*background-color: black;*/
+/*}*/
+/*.dropdown-menu .dropdown-item, .dropdown-menu li > a{*/
+    /*color: whitesmoke;*/
+/*}*/
 .dropdown-menu .dropdown-item:hover, .dropdown-menu .dropdown-item:focus, .dropdown-menu a:hover, .dropdown-menu a:focus, .dropdown-menu a:active{
-    background-color: #00aa88;
+    background-color:rgb(152, 188, 115);
 }
 .card-blog {
     margin-top: 30px;
