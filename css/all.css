@@ -40,7 +40,7 @@
     /*color: whitesmoke;*/
 /*}*/
 .dropdown-menu .dropdown-item:hover, .dropdown-menu .dropdown-item:focus, .dropdown-menu a:hover, .dropdown-menu a:focus, .dropdown-menu a:active{
-    background-color:rgb(152, 188, 115);
+    background-color:#8BC34A;
 }
 .card-blog {
     margin-top: 30px;
@@ -52,3 +52,17 @@
     background: inherit;
 }
 
+.tab-item{
+    width:150px;
+    margin: 0 auto;
+}
+.nav-pills .nav-item .tab-item.nav-link.active{
+    background-color:#8BC34A;
+}
+
+.btn-green{
+    background-color:#8BC34A;
+}
+.btn-green:hover{
+    background-color: #72a847;
+}
