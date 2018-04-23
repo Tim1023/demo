@@ -69,3 +69,12 @@
 .nav-link:hover{
     background-color: #93a44a;
 }
+.nav-pills .nav-item i {
+    font-size: 54px;
+}
+.card .card-header-primary, .card.bg-primary, .card.card-rotate.bg-primary .front, .card.card-rotate.bg-primary .back {
+    background: linear-gradient(60deg, #adbe4f, #7e8e29);
+}
+.navbar .navbar-brand{
+    font-size: 25px;
+}
