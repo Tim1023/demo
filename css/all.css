@@ -78,3 +78,9 @@
 .navbar .navbar-brand{
     font-size: 25px;
 }
+.navbar.navbar-transparent{
+    background-color: #9e9e9e61 !important;
+}
+.carousel .carousel-control-prev .material-icons, .carousel .carousel-control-next .material-icons{
+    font-size: 100px;
+}
