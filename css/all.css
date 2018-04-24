@@ -1,86 +1,104 @@
 /*.header-3{*/
-    /*margin-top: 85px;*/
+/*margin-top: 85px;*/
 /*}*/
 /*.page-header-small{*/
-    /*height: 65vh;*/
+/*height: 65vh;*/
 /*}*/
 /*.navbar.navbar-transparent{*/
-    /*color:rgb(73, 117, 27);*/
-    /*background-color: white !important;*/
+/*color:rgb(73, 117, 27);*/
+/*background-color: white !important;*/
 /*}*/
 /*.navbar{*/
-    /*background-color: white !important;*/
-    /*color:rgb(73, 117, 27);*/
+/*background-color: white !important;*/
+/*color:rgb(73, 117, 27);*/
 /*}*/
 /*.navbar-toggler{*/
-    /*color:rgb(73, 117, 27);*/
+/*color:rgb(73, 117, 27);*/
 
 /*}*/
-.navbar img{
+.navbar img {
     margin-top: -18px;
 }
-.navbar .navbar-nav .nav-item .nav-link{
+
+.navbar .navbar-nav .nav-item .nav-link {
     font-size: 16px;
     font-weight: 400;
 }
-.navbar .navbar-brand{
+
+.navbar .navbar-brand {
     font-size: 18px;
     font-weight: 500;
 }
-[class*="features-"], [class*="team-"], [class*="projects-"], [class*="pricing-"], [class*="testimonials-"], [class*="contactus-"]{
+
+[class*="features-"], [class*="team-"], [class*="projects-"], [class*="pricing-"], [class*="testimonials-"], [class*="contactus-"] {
     padding: 42px 0;
 }
-.info{
+
+.info {
     padding: 6px;
 }
+
 /*.dropdown-menu{*/
-    /*background-color: black;*/
+/*background-color: black;*/
 /*}*/
 /*.dropdown-menu .dropdown-item, .dropdown-menu li > a{*/
-    /*color: whitesmoke;*/
+/*color: whitesmoke;*/
 /*}*/
-.dropdown-menu .dropdown-item:hover, .dropdown-menu .dropdown-item:focus, .dropdown-menu a:hover, .dropdown-menu a:focus, .dropdown-menu a:active{
-    background-color:#8BC34A;
+.dropdown-menu .dropdown-item:hover, .dropdown-menu .dropdown-item:focus, .dropdown-menu a:hover, .dropdown-menu a:focus, .dropdown-menu a:active {
+    background-color: #adbe4f;
 }
+
 .card-blog {
     margin-top: 30px;
 }
+
 /*.main-raised{*/
-    /*margin: -18px 30px 0px;*/
+/*margin: -18px 30px 0px;*/
 /*}*/
-.section-image{
+.section-image {
     background: inherit;
 }
 
-.tab-item{
-    width:150px;
+.tab-item {
+    width: 150px;
     margin: 0 auto;
 }
-.nav-pills .nav-item .tab-item.nav-link.active{
-    background-color:#adbe4f;
+
+.nav-pills .nav-item .tab-item.nav-link.active {
+    background-color: #adbe4f;
 }
 
-.btn-green{
-    background-color:#adbe4f;
+.btn-green {
+    background-color: #adbe4f;
 }
-.btn-green:hover{
+
+.btn-green:hover {
     background-color: #93a44a;
 }
-.nav-link:hover{
-    background-color:#adbe4f;
+
+.nav-link:hover {
+    background-color: #93a44a;
 }
+
 .nav-pills .nav-item i {
     font-size: 54px;
 }
+
 .card .card-header-primary, .card.bg-primary, .card.card-rotate.bg-primary .front, .card.card-rotate.bg-primary .back {
     background: linear-gradient(60deg, #adbe4f, #7e8e29);
 }
-.navbar .navbar-brand{
+
+.navbar .navbar-brand {
     font-size: 25px;
 }
-.navbar.navbar-transparent{
-    background-color: #9e9e9e61 !important;
+
+.navbar.navbar-transparent {
+    background-color: #00000078 !important;
 }
-.carousel .carousel-control-prev .material-icons, .carousel .carousel-control-next .material-icons{
+
+.carousel .carousel-control-prev .material-icons, .carousel .carousel-control-next .material-icons {
     font-size: 100px;
 }
+
+svg {width: 150px; height: 40px;}
+svg path {fill: #000 !important;}
