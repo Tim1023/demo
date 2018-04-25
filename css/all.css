@@ -16,8 +16,11 @@
 /*color:rgb(73, 117, 27);*/
 
 /*}*/
-.navbar img {
+.navbar.navbar-transparent img {
     margin-top: -18px;
+}
+.navbar img {
+    margin-top: -11px;
 }
 
 .navbar .navbar-nav .nav-item .nav-link {
@@ -100,5 +103,12 @@
     font-size: 100px;
 }
 
-svg {width: 150px; height: 40px;}
-svg path {fill: #000 !important;}
+@media screen and (min-width: 1340px) {
+    .carousel-control-prev{
+        left: 50px;
+    }
+    .carousel-control-next{
+        right: 50px;
+    }
+
+    }
