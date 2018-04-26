@@ -19,6 +19,7 @@
 .navbar.navbar-transparent img {
     margin-top: -18px;
 }
+
 .navbar img {
     margin-top: -11px;
 }
@@ -75,7 +76,7 @@
     background-color: #adbe4f;
 }
 
-.btn-green:hover {
+.btn-green:hover, .btn-green:focus {
     background-color: #93a44a;
 }
 
@@ -104,11 +105,41 @@
 }
 
 @media screen and (min-width: 1340px) {
-    .carousel-control-prev{
+    .carousel-control-prev {
         left: 50px;
     }
-    .carousel-control-next{
+    .carousel-control-next {
         right: 50px;
     }
 
-    }
+}
+.table .td-actions .btn{
+    padding: 12px 30px;
+}
+.bg-green{
+    background: #adbe4e1f;
+}
+
+.post-description{
+    padding-top: 70px;
+}
+.post{
+    min-height: 600px;
+
+}
+.post p{
+    font-size: 1.188rem;
+    line-height: 1.5em;
+    color: #555;
+    margin-bottom: 30px
+}
+.nav-pills.nav-pills-rose .nav-item .nav-link.active, .nav-pills.nav-pills-rose .nav-item .nav-link.active:focus, .nav-pills.nav-pills-rose .nav-item .nav-link.active:hover{
+    background-color: #93a44a;
+    box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.2), 0 13px 24px -11px rgb(147, 164, 73);
+}
+.nav-pills .nav-item .nav-link.active{
+    background-color: #93a44a;
+}
+.about-office{
+    padding-bottom: 70px;
+}
